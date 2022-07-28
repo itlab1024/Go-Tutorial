@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a178ebcb-a63b-4bf5-a868-733efd0f4b19" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/2、Go-变量和常量.md" beforeDir="false" afterPath="$PROJECT_DIR$/2、Go-变量和常量.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/4、Go函数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -34,7 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
+    "DefaultGoTemplateProperty": "Go Application",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
@@ -51,7 +54,14 @@
     "settings.editor.selected.configurable": "go.vgo"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2" />
+      <recent name="$PROJECT_DIR$/1" />
+      <recent name="$PROJECT_DIR$/3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build go-tutorial/2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
@@ -61,8 +71,18 @@
       <filePath value="$PROJECT_DIR$/2/HelloWorld.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-tutorial" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="go-tutorial" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/4/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build go-tutorial/2" />
       </list>
     </recent_temporary>
