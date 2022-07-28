@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a178ebcb-a63b-4bf5-a868-733efd0f4b19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1-安装GO.md" beforeDir="false" afterPath="$PROJECT_DIR$/1、Go安装（Mac）.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2、Go-变量和常量.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
