@@ -32,4 +32,4 @@ Last login: Sun Jul 24 19:29:45 on ttys001
 go version go1.18.4 darwin/amd64
 ```
 
-删除版本号即代表安装成功。
+输出版本号即代表安装成功。
