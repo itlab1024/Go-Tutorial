@@ -11,7 +11,7 @@ var 变量名 []类型
 // 定义切片
 var slice1 []int
 // slice1[0] = 1 // 编译通过，但是没有初始化所以执行报错，触发panic
-println("切片的零值是nil?", slice1 == nil) //切片的零值是nil? true
+fmt.Println("切片的零值是nil?", slice1 == nil) //切片的零值是nil? true
 
 // 这根数组定义有些类似，千万不要搞混
 // 比如如下是数组定义
@@ -56,11 +56,11 @@ make([]类型, length, capacity)
 // 使用make函数初始化切片
 // 指定类型和长度
 var s2 = make([]int, 3)
-println("s2的长度是", len(s2), "容量是", cap(s2)) //s2的长度是 3 容量是 3
+fmt.Println("s2的长度是", len(s2), "容量是", cap(s2)) //s2的长度是 3 容量是 3
 
 // 指定类型，长度=0，容量=3
 s3 := make([]int, 0, 3)
-println("s3的长度是", len(s3), "容量是", cap(s3), "结果是：") //s2的长度是 0 容量是 3
+fmt.Println("s3的长度是", len(s3), "容量是", cap(s3), "结果是：") //s2的长度是 0 容量是 3
 
 ```
 

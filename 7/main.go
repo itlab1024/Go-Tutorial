@@ -18,8 +18,8 @@ func main() {
 	// 获取实部和虚部
 	f := real(n4)
 	f2 := imag(n4)
-	println(f)  // +1.000000e+000
-	println(f2) // +2.000000e+000
+	fmt.Println(f)  // +1.000000e+000
+	fmt.Println(f2) // +2.000000e+000
 
 	// 复数运算
 	c1 := complex(2, 3)

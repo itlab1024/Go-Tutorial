@@ -6,7 +6,7 @@ func main() {
 	sayHello()
 	// 测试函数参数传递是否是值传递
 	i := 1
-	println(&i)      // 0xc000069f00
+	fmt.Println(&i)  // 0xc000069f00
 	prepareChange(i) // 设置i=100
 	fmt.Println(i)   // 结果还是1
 
@@ -18,17 +18,17 @@ func main() {
 	//r1, r2 := addSub(1, 2)
 	// 如果我不关心r2的结果则可使用空标识符
 	r1, _ := addSub(1, 2)
-	println(r1)
+	fmt.Println(r1)
 
 	// 匿名函数
 	func1 := func() {
-		println("匿名函数体")
+		fmt.Println("匿名函数体")
 	}
 	func1()
 
 	// 匿名函数立即调用
 	func() {
-		println("匿名函数体")
+		fmt.Println("匿名函数体")
 	}()
 
 	// 调用调用返回类型是函数的函数
@@ -43,12 +43,12 @@ func main() {
 	i2 := f2(1)
 	i3 := f2(1)
 	i4 := f2(1)
-	println(i2, i3, i4) // 1 2 3
+	fmt.Println(i2, i3, i4) // 1 2 3
 	f2 = cumulative()
 	i5 := f2(1)
 	i6 := f2(1)
 	i7 := f2(1)
-	println(i5, i6, i7) // 1 2 3
+	fmt.Println(i5, i6, i7) // 1 2 3
 }
 
 // 定义了一个无参数，返回空类型的函数
@@ -80,7 +80,7 @@ func namedReturn(x, y int) (a int, b int) {
 
 // 函数的值传递
 func prepareChange(i int) {
-	println(&i) // 0xc000069ee0
+	fmt.Println(&i) // 0xc000069ee0
 	i = 100
 }
 
@@ -101,7 +101,7 @@ func biz(i int, c func(i int)) {
 }
 
 func callback(i int) {
-	println("回调成功", i)
+	fmt.Println("回调成功", i)
 }
 
 // 闭包函数，累加功能
