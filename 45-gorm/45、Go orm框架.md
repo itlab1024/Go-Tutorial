@@ -76,4 +76,4 @@ db.Delete(&f)
 运行中截图：
 ![](https://itlab1024-1256529903.cos.ap-beijing.myqcloud.com/202208221409150.png)
 上面绿色的deleted_at也作为了查询条件。但是实际我只想通过ID更新，与我预期不符合。这应该就需要自定义了，我这里就不一一尝试了，
-官网有详细说明：https://gorm.io/zh_CN/docs/models.html
+官网有详细说明： https://gorm.io/zh_CN/docs/models.html
