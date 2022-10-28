@@ -2,7 +2,7 @@
 * [Go安装](https://itlab1024.com/archives/go-%E5%AE%89%E8%A3%85.html)
 * [变量和常量](https://itlab1024.com/archives/2-go-%E5%8F%98%E9%87%8F%E5%92%8C%E5%B8%B8%E9%87%8F.html)
 * [命令行参数](https://itlab1024.com/archives/3-go%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0.html)
-* [函数](https://itlab1024.com/admin/write-post.php?cid=124)
+* [函数](https://itlab1024.com/archives/4-go%E5%87%BD%E6%95%B0.html)
 * [整型](https://itlab1024.com/archives/5-go%E6%95%B4%E5%9E%8B-int.html)
 * [浮点型](https://itlab1024.com/archives/6-go%E6%B5%AE%E7%82%B9%E5%9E%8B.html)
 * [复数](https://itlab1024.com/archives/7-%E5%A4%8D%E6%95%B0-complex.html)
